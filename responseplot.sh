@@ -1,6 +1,6 @@
 #!/bin/bash
 rm plot.dat
-site="https://riide.like.st"
+site=$1
 
 writedata() {
   while [ true ] 
